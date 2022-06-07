@@ -1,14 +1,10 @@
 # **Silicon-Coppelia01**
 
-### `Background` 
-##### We hope Silicon Coppelia can deal with amgious emotions of its user and has ambiguous 'feelings' of its own, which makes its decisions quite human-like
-##### In the current paper, a fuzzy-sets approach is advanced and the inner-workings of our system is shown through an elaborate example. 
-### `Install`
+git clone https://bitbucket.org/robopop/silicon-coppelia.git
+cd silicon-coppelia
+sudo ./gradlew docker
+sudo ./scripts/docker-run-sico.sh
+sudo ./scripts/test-sico.sh
 
-### `Usage`
-
-### `Maintainer`
-
-### `Contributing`
-
-### `License`
+To stop docker:
+docker stop sico
